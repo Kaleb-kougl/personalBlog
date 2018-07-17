@@ -1,0 +1,108 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+  height: 50px;
+}
+
+.navbar form {
+	display: inline;
+	float: right;
+	padding: 14px 16px;
+}
+
+/*Makes the navbar stick to the top of the page*/
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(25, 151, 130);
+}
+/* makes the links in navbar move to right, color, padding*/
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-left: solid rgb(8, 125, 105) 1px;
+}
+
+/* This makes the links change color when hovering over them*/
+.navbar a:hover {
+    background: rgb(91, 188, 172);
+    color: black;
+}
+
+.main {
+	margin-top: 60px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(25, 151, 130);
+}
+
+footer a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px, 16px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	background: rgb(91, 188, 172);
+	color: black;
+}
+
+footer span {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#backToTop {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+	margin: 0 5px;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: rgb(220, 37, 76);
+}
+
+ul button {
+	background-color: rgb(238, 171, 40);
+	border-radius: 5px;	
+}
+
+li img {
+	width: 35px;
+	height: auto;
+}
